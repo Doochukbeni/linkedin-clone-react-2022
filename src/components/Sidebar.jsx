@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="sidebar__top">
         <img
           src="https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bmF0aW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-          alt=""
+          alt="UserImage"
         />
         <Avatar src={user.photoUrl} className="sidebar__avatar">
           {user.email[0]}

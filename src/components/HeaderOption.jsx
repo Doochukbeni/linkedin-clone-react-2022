@@ -14,7 +14,7 @@ const HeaderOption = ({ avatar, Icon, title, onClick }) => {
           className="headerOption__icon"
           src={user ? user.photoUrl : null}
         >
-          {/* {user ? user.email[0] : null} */}
+          {user ? user.email[0] : null}
         </Avatar>
       )}
       <h3 className="headerOption__title">{title}</h3>

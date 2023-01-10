@@ -43,12 +43,6 @@ const Feed = () => {
       });
     }
     postQueryDocument();
-    // async function getPosts(db) {
-    //   const postsCol = collection(db, "posts");
-    //   const postSnapshot = await getDocs(postsCol);
-    //   const postList = postSnapshot.docs.map((doc) => doc.data());
-    //   return postList;
-    // }
   }, []);
 
   const sendPost = async (e) => {
@@ -76,7 +70,11 @@ const Feed = () => {
         <div className="feed__input">
           <Create />
           <form action="">
-            <input type="text" onChange={(e) => setInput(e.target.value)} />
+            <input
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
             <button type="submit" onClick={sendPost}>
               Send
             </button>

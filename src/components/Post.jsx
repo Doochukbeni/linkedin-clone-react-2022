@@ -22,7 +22,6 @@ const Post = ({ name, description, message, photoUrl }) => {
       <div className="post__body">
         <p>{message}</p>
       </div>
-
       <div className="post__buttons">
         <InputOption title="Like" color="gray" Icon={ThumbUpAltOutlined} />
         <InputOption title="Comment" color="gray" Icon={ChatOutlined} />

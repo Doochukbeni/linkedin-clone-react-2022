@@ -9,6 +9,7 @@
 
 .sidebar__avatar {
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .sidebar__top {
   display: flex;

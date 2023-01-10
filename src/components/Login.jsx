@@ -62,8 +62,8 @@ const Login = () => {
   return (
     <div className="login">
       <img
-        src="https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/242713849_120176157043645_4823673981838648667_n.jpg?stp=c0.83.206.206a_dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=da31f3&_nc_ohc=v4aQyhqWB0IAX-XgsDV&_nc_ht=scontent.ffjr1-6.fna&oh=00_AfB6vJCPkT_nUYotrxVe2HpiDi0JMXjS247fpOrUhWu-aQ&oe=63B04E38"
-        alt="user"
+        src="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-png.png"
+        alt="USER"
       />
 
       <form action="">
